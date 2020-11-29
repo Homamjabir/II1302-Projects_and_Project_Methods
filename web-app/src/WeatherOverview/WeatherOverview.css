@@ -1,0 +1,94 @@
+/*
+  Author: Homam Jabir
+  Co-Authors:
+*/
+.WeatherOverviewContainer {
+	height: 100vh;
+	padding-top: calc(100px + 2%);
+	text-align: center;
+	
+}
+
+.Rectangle {
+	margin: 0 auto; 
+	width: 90vw;
+	height: 70vh;
+	top: 250px;
+	font-size: 2vw;
+
+	background: #F5F5F5;
+	box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;	
+}
+
+
+.Table {
+	
+	padding-left: 8.5vw;
+	font-size: 1vw;
+ 
+}
+    
+.Column td {
+	background: #556b2f;
+	width: 12vw;
+	height: 9vh;
+	color: white;
+	font-size: 1.5vw;
+}
+  
+.Row td {
+	background: lightgrey;
+	vertical-align: center;
+	width: 12vw;
+	height: 6vh;
+	font-size: 1.5vw;
+}
+
+.Search {
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+#WeatherImages11 {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: center;
+	text-align: center;
+}
+
+#link {
+	color: white;
+}
+
+@media screen and (max-width: 800px){
+    .BestTable tr > *{
+		display: block;
+		border: 1px solid white;
+    }
+    .BestTable tr {
+		display: table-cell;
+	}
+    .WeatherOverviewContainer{
+        height: 110vh;
+	}
+	.Rectangle{
+		font-size: 4vw;
+		height: 120vw;
+	}
+	.Table {
+		padding-top: 10px;
+		padding-left: 9vw;
+	}
+	.Column td, .Row td {
+		width: 18vw;
+		height: 13vw;
+		font-size: 2.5vw;
+	}
+	#WeatherImages11 {
+		height: 100%;
+		
+	}
+}
+
